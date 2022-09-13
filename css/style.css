@@ -560,9 +560,196 @@ hr{
 
 
 
+.calender-img-box{
+  text-align: center;
+}
 
 .calender-img{
   width: 375px;
-  height: 375px;
-  margin-top: 7.8rem;
+  height: 375px; 
+}
+
+
+
+
+.page-6{
+  width: 375px;
+  height: 421px;  
+  background: linear-gradient(270deg, #DADAE4 0.25%, #EEEEF0 24.33%, #F8F8F8 52.08%, #FEFEFE 100%);
+  margin:0 auto;
+  position:relative;
+}
+
+
+
+
+.consult-with-expert-section{
+  display: flex;
+  flex-direction: column;
+  gap:1.8rem;
+  padding:1.5rem;
+}
+
+
+.consult-with-expert-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+  
+}
+
+
+.consult-with-expert-section .more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
+  
+}
+
+ 
+
+.consult-button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:330px;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  border-radius: 70px;
+  
+} 
+
+ 
+.consult-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:350px;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+
+
+.doctor-pic-box{
+  text-align: center;
+
+}
+
+.doctor-pic{
+   
+  width: 375px;
+  height: 250px;
+}
+
+
+
+.page-7{
+  width: 375px;
+  height: 646px;  
+  background: #F66E6E;
+  margin:0 auto;
+}
+
+
+.period-box-section{
+  display: flex;
+  flex-direction: column;
+   
+  padding:1.5rem;
+}
+
+.period-box-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.period-box-section .more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.period-box-section .period-box-img{
+  max-width: 387px;
+  max-height: 290px;
+}
+
+
+.period-box-button{
+  display: flex;
+  gap:2rem;
+  width: 287px;
+  height: 43px;
+  background: #000000;
+  border-radius: 27px;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem; 
+}
+
+
+.btn-text{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* margin-left: 1.3rem; */
+  /* identical to box height, or 29px */
+  
+  
+  color: #FFFFFF;
+  
+}
+
+.btn-icon{
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  font-style: normal;
+ 
+  /* identical to box height, or 29px */
+ 
+  color: #FFFFFF;
 }
