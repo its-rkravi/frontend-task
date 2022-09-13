@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ 
+
+/* header{
+  padding:1.5rem;
+} */
+
+
+
+.container{
+  /* border:1px solid black; */
+  max-width: 375px;
+  height: 1725px;
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 33.33%, rgba(213, 224, 255, 0) 100%);
+  margin:0 auto;
+   
+}
+
+ 
+
+.nav-box{
+   
+  padding:1.5rem;
+  background: rgba(255, 255, 255, 0.47);
+  box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 0px 0px 14px 14px;
+  /* position:static; */
+  /* position:fixed; */
+   
+  
+}
+
+
+.nav-1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem; 
+  
+   
+}
+
+.time{
+  font-family: sans-serif;
+  /* font-weight: bold; */
+}
+
+.nav-2{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.icon-size{
+  width: 24px;
+  height: 24px;
+}
+
+.shopping-icon{
+  margin-right: 1rem;
+}
+
+
+.about{
+  display: flex;
+  gap:2rem;
+  flex-direction: column;
+ 
+  /* background-color: lightcoral; */
+  margin-top: 3rem;
+  text-align: center;
+  padding:1.5rem;
+}
+
+.about--heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 30px;
+ 
+  color: #1B1B50;  
+}
+
+.about-info{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+ 
+  color: #1B1B50;
+}
+
+.about-more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 179%;
+  /* or 25px */
+  
+  text-align: left;
+  color: #000000;
+}
+
+
+hr{
+  width: 297px;
+  border: 1px solid #000000;
+  margin-left: 0.5rem; 
+  /* background-color: #000000; */
+}
+
+
+.philosophy{
+  display: flex;
+  flex-direction: column;
+  gap:2.8rem;
+  text-align: center;
+  padding:1.5rem;
+}
+
+
+.philosophy-icons{
+  width: 70px;
+  height: 70px;
+  margin:0 auto;
+}
+
+
+.philosophy .mainheading{
+  font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 33px;
+ color: #1B1B50;
+}
+
+.philosophy .sub-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 134.8%;
+  color: #1B1B50;
+    
+}
+
+
+.philosophy .more-info{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 179%;
+  color: #1B1B50;
+    
+}
+
+
+.philosophy .more-more-info{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 179%;
+  color: #1B1B50;  
+}
+
+
+
+.philosophy .finally-last-info{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 179%;
+  text-align: center;
+  color: #1B1B50;  
+}
+
+
+
+
+.page-2{
+  width: 375px;
+  height: 841px; 
+  background: linear-gradient(165.41deg, #D99EC9 0%, rgba(246, 240, 196, 0) 100%); 
+  /* border:1px solid black; */
+  margin:0 auto;
+}
+
+
+
+
+.we-are-different{
+  display: flex;
+  flex-direction: column;
+  gap:2.2rem;
+  text-align: left;
+  padding:1.5rem;
+}
+
+
+.we-are-different li{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.we-are-different .main-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+ 
+  color: #1B1B50;
+}
+
+
+
+.we-are-different .sub-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  color: #1B1B50;
+   
+}
+
+
+.we-are-different .who-we-are{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 180%;
+  /* or 25px */
+  
+  
+  color: #1B1B50;
+}
+
+
+
+
+
+
+
+.page-3{
+  width: 375px;
+  height: 411px;
+  background: #DCE9E9;
+  /* border:1px solid black; */
+  margin:0 auto;
+}
+
+
+.liberate-section{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  padding:1.5rem;
+  text-align: left;
+}
+
+
+.liberate-section .main-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  
+  color: #1B1B50;
+    
+}
+
+.liberate-section .sub-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+}
+
+.liberate-section .more-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
+
+  /* position: relative; */
+  
+}
+
+
+
+.page-3-remaining-part{
+  width: 375px;
+  height: 562px;
+  background: linear-gradient(180deg, #DCE9E9 11.21%, rgba(220, 233, 233, 0.15) 42.17%), url(/img/skin-oil.png);
+  margin:0 auto;
+  /* border:1px solid black; */
+  margin-top: -2rem;
+  position:relative;
+}
+
+ 
+.button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:3rem;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(297.28deg, #F66E6E 67.01%, rgba(246, 110, 110, 0) 123.71%);
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;  
+} 
+
+ 
+.upgrade-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:4rem;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+ 
+ 
+
+.page-3-remaining-part .hashtag-message{
+  width: 335px;
+  height: 33px; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  text-align: center;
+  
+  color: rgba(0, 0, 0, 0.8);
+  position:absolute;
+  top:9rem;
+  left: 50%;
+  transform: translate(-50%); 
+  
+}
+
+
+ 
