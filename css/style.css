@@ -727,6 +727,7 @@ hr{
   align-items: center;
   justify-content: center;
   margin-left: 1rem; 
+  cursor: pointer;
 }
 
 
@@ -752,4 +753,152 @@ hr{
   /* identical to box height, or 29px */
  
   color: #FFFFFF;
+}
+
+
+
+
+.page-8{
+  width: 375px;
+  height: 373px; 
+  background: linear-gradient(180deg, #FFF6FB 0%, #E7F6FC 100%);
+  margin:0 auto;
+}
+
+.bonus-section{
+  padding:1.5rem;
+  
+}
+
+
+.bonus-section .info{
+  width: 274px;
+  height: 220px;
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 134.8%;
+  text-align: left;
+  margin:4rem auto; 
+    
+  /* or 44px */
+  
+  
+  color: rgba(0, 0, 0, 0.8); 
+}
+
+
+
+
+
+footer{
+  width: 375px;
+  height: 390px;
+  background: #050506;
+  margin:0 auto;
+}
+
+.last-page{
+  padding:1.5rem;
+}
+
+
+.social-icon-box{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+
+.social-icon{
+  margin-right: 1rem;
+}
+ 
+
+
+.other-links{
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: column;
+  gap:1.5rem;
+  margin-bottom: 2rem;
+}
+
+
+.links{
+  display: grid;
+  grid-template-columns:130px 20px;
+  
+
+}
+
+
+ 
+.line{
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+  
+
+
+.notification{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8.94737px;
+  line-height: 206.5%;
+  /* or 18px */
+  
+  
+  color: #FFFFFF;  
+}
+
+
+form{
+  display: flex;
+  justify-content: space-between;
+  gap:1rem;
+  
+}
+
+
+.message-icon{
+  width: 1rem;
+  margin-right: 0.5rem;
+}
+
+.message-box{
+  display: flex;
+  /* background-color: lightblue; */
+  padding:0.4rem 2rem;
+
+  cursor: pointer;
+  /* width: 85px; */
+  height: 27.48px;
+   
+
+  background: #D6F4FB;
+  border: 1.2782px solid #E9F4FF;
+  border-radius: 17.2556px;
+
+}
+ 
+
+.activate-button{
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8.94737px;
+  line-height: 206.5%;
+/* identical to box height, or 18px */
+
+
+color: #1B1B50;
 }
