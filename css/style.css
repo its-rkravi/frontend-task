@@ -326,7 +326,7 @@ hr{
 }
 
  
-.button-box{
+.upgrade-button-box{
   width: 315px;
   height: 66px;  
   /* background-color: blue; */
@@ -380,4 +380,98 @@ hr{
 }
 
 
+.page-4{
+  width: 375px;
+  height: 750px; 
+  background: linear-gradient(180deg, #FFF6FB 0%, #FFFFFF 100%);
+  margin:0 auto;
+  /* border:1px solid black; */
+}
+
+ .track-mood-section{
+   display: flex;
+   flex-direction: column;
+   gap:2rem;
+   padding: 1.5rem; 
+   position:relative;
+ }
+
+
+
+ .track-mood-section .main-heading{
+  font-family: 'Reptile';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+  
+  
+  color: #000000;
+ }
+
+
+ .track-mood-section .mood-info{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+  
+  
+  color: rgba(0, 0, 0, 0.8);
  
+ }
+
+
+
+
+ 
+.mood-button-box{
+  width: 315px;
+  height: 66px;  
+  /* background-color: blue; */
+  position:absolute;
+  top:300px;
+  left: 50%;
+  transform: translate(-50%);   
+  /* position:relative;  */
+  background: linear-gradient(288.62deg, #6E8CF6 42.36%, rgba(110, 213, 246, 0.93) 115.74%);
+  box-shadow: 0px 2px 16px rgba(71, 222, 255, 0.33);
+  border-radius: 70px;
+  
+} 
+
+ 
+.mood-button{
+  width: 315px;
+  height: 66px; 
+  position:absolute;
+  top:320px;
+  left: 50%;
+  transform: translate(-50%);  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;  
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.user-img{
+  max-width: 100%;
+}
+
+
+.image-frame{
+  margin-top: 9rem; 
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* grid-template-rows: repeat(2,1fr); */
+  gap:2rem;
+  
+}
