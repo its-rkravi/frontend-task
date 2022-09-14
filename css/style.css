@@ -4,12 +4,7 @@
     box-sizing: border-box;
   }
  
-
-/* header{
-  padding:1.5rem;
-} */
-
-
+ 
 
 .container{
   /* border:1px solid black; */
@@ -33,7 +28,9 @@
   border-radius: 0px 0px 14px 14px;
   /* position:static; */
   /* position:fixed; */
-   
+  position: fixed;
+  top: 0;
+  width: 375px; 
   
 }
 
@@ -84,7 +81,7 @@
   font-weight: 500;
   font-size: 33px;
   line-height: 30px;
- 
+  margin-top: 5rem;
   color: #1B1B50;  
 }
 
@@ -424,9 +421,6 @@ hr{
  
  }
 
-
-
-
  
 .mood-button-box{
   width: 315px;
@@ -520,9 +514,7 @@ hr{
   color: rgba(0, 0, 0, 0.8);
 }
 
-
-
-
+ 
 
 .track-your-period-button-box{
   width: 315px;
